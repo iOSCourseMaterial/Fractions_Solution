@@ -13,6 +13,7 @@
 		920C4392152109DF00663222 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 920C4390152109DF00663222 /* InfoPlist.strings */; };
 		920C4394152109DF00663222 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C4393152109DF00663222 /* main.m */; };
 		920C4398152109DF00663222 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C4397152109DF00663222 /* RHAppDelegate.m */; };
+		920C43A415210DCA00663222 /* RHFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 920C43A315210DCA00663222 /* RHFraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		920C4395152109DF00663222 /* FunWithFractions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunWithFractions-Prefix.pch"; sourceTree = "<group>"; };
 		920C4396152109DF00663222 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
 		920C4397152109DF00663222 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
+		920C43A215210DCA00663222 /* RHFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHFraction.h; sourceTree = "<group>"; };
+		920C43A315210DCA00663222 /* RHFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHFraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				920C4396152109DF00663222 /* RHAppDelegate.h */,
 				920C4397152109DF00663222 /* RHAppDelegate.m */,
+				920C43A215210DCA00663222 /* RHFraction.h */,
+				920C43A315210DCA00663222 /* RHFraction.m */,
 				920C438E152109DF00663222 /* Supporting Files */,
 			);
 			path = FunWithFractions;
@@ -154,6 +159,7 @@
 			files = (
 				920C4394152109DF00663222 /* main.m in Sources */,
 				920C4398152109DF00663222 /* RHAppDelegate.m in Sources */,
+				920C43A415210DCA00663222 /* RHFraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +263,7 @@
 				920C439D152109DF00663222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
